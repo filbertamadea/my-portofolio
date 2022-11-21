@@ -203,7 +203,7 @@ h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -990,10 +990,21 @@ section {
   margin-bottom: 20px;
   color: #45505b;
 }
+
+@media (max-width: 575px) {
+  .resume .resume-title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+  }
+}
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid green;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -1002,7 +1013,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: lightblue;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -1031,5 +1042,5 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid green;
 }
